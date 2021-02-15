@@ -21,7 +21,7 @@ public class Question08 {
         /* Soma os elementos das diagonais*/
         for (int i = 0; i < dimensao; i++){
             diagonalPrimaria += matriz[i][i];
-            diagonalSecundaria += matriz[dimensao - (i+1)][dimensao - (i+1)];
+            diagonalSecundaria += matriz[i][(dimensao-1) - i];
         }
 
 
