@@ -1,7 +1,7 @@
 package tarefa7.questao01;
 
 public class QuantidadeDePrimos {
-    public static int qtdPrimos;
+    private static int qtdPrimos;
     private int numeroMax;
 
 
@@ -14,4 +14,11 @@ public class QuantidadeDePrimos {
         return this.numeroMax;
     }
 
+   public void somaPrimos(){
+        this.qtdPrimos++;
+   }
+
+    public static int getQtdPrimos() {
+        return qtdPrimos;
+    }
 }
