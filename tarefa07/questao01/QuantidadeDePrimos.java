@@ -1,4 +1,4 @@
-package tarefa7.questao01;
+package tarefa07.questao01;
 
 public class QuantidadeDePrimos {
     private static int qtdPrimos;
